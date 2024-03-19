@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Meet Link Opener",
+    "version": "1.0",
+    "description": "Meet with your Developer budyy upon web socket signal",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "commands": {
+      "open_meet": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "mac": "Command+Shift+Y"
+        },
+        "description": "Opens the Meet link"
+      }
+    }
+  }
+  

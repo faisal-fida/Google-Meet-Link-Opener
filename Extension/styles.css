@@ -1,0 +1,24 @@
+.container {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #status {
+    margin-top: 10px;
+    color: green;
+  }
+  
